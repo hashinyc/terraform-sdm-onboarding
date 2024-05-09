@@ -9,10 +9,10 @@ module "strongdm_onboarding" {
   # Mysql resources take approximately 15 min
   # create_mysql             = true
   # RDP resources take approximately 10 min
-  # create_rdp               = false
+  # create_rdp               = true
   # HTTP resources take approximately 5 min
   # NOTE: Before creating HTTP resources, set up TLS here https://app.strongdm.com/app/datasources/websites
-  # create_http              = false
+  # create_http              = true
   # SSH resources take approximately 5 min (requires create_http)
   # create_ssh              = true
   # Gateways take approximately 5 min
