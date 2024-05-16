@@ -5,7 +5,7 @@ module "strongdm_onboarding" {
   prefix = "terraform-sdm"
 
   # EKS resources take approximately 20 min
-  # create_eks               = false
+  create_eks               = true
   # Mysql resources take approximately 15 min
   create_mysql             = true
   # RDP resources take approximately 10 min
